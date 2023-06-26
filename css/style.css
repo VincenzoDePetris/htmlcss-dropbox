@@ -36,6 +36,10 @@ img {
   border: solid darkgray 1px;
 }
 
+.border-fixed {
+  border-bottom: solid darkgray 1px;
+}
+
 .margin {
   margin: 20px 20px 20px 0;
 }
@@ -190,6 +194,10 @@ hr {
 .orizontal-content {
   margin: 20px;
   width: 65%;
+}
+
+.third-box {
+  margin: 20px 0px;
 }
 
 .orizontal-button-div {
