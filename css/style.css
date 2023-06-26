@@ -27,6 +27,23 @@ img {
   width: 1000px;
 }
 
+.small-section {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.border {
+  border: solid darkgray 1px;
+}
+
+.margin {
+  margin: 20px 20px 20px 0;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
 /* header style */
 
 header {
@@ -37,7 +54,7 @@ nav {
   height: 75px;
 }
 
-ul {
+header ul {
   list-style: none;
 }
 
@@ -65,11 +82,17 @@ nav a {
 /* main title section */
 
 .main-title-section {
-  height: 700px;
+  height: 600;
+  font-size: 1.2rem;
+}
+
+.main-title-flex {
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .text-img-div {
-  align-items: flex-start;
+  align-items: fle;
 }
 
 .main-title {
@@ -82,7 +105,7 @@ nav a {
 }
 
 .jumbo {
-  width: 55%;
+  width: 65%;
 }
 
 .free-try {
@@ -93,6 +116,90 @@ nav a {
 }
 
 .freccia {
-  margin: 25px 0px;
   font-size: 2rem;
+  margin-top: 40px;
+  justify-self: flex-end;
+}
+
+/* business container */
+
+.business-flex {
+  align-items: stretch;
+}
+
+.business-main-div {
+  margin: 50px 0px;
+}
+
+.button-section {
+  padding: 20px 0;
+}
+
+.business-span {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.h2-business {
+  margin-left: 20px;
+}
+
+.mini-title-div {
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.period {
+  color: gray;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.ul-business {
+  list-style: none;
+  padding-left: 2px;
+}
+
+.li-business {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.item-business {
+  margin-right: 5px;
+}
+
+.business-button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+}
+
+hr {
+  width: 50px;
+}
+
+.orizontal-content {
+  margin: 20px;
+  width: 65%;
+}
+
+.orizontal-button-div {
+  margin: 20px;
+  width: 30%;
+}
+
+.orizontal-button {
+  margin: 20px 0px 0px 40px;
+  color: white;
+  padding: 10px 30px;
+  border: none;
 }
