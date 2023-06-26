@@ -2,7 +2,6 @@
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 img {
@@ -21,6 +20,11 @@ img {
 
 .container-bg {
   background-color: rgb(180, 208, 231);
+}
+
+.medium-section {
+  margin: 0 auto;
+  width: 1000px;
 }
 
 /* header style */
@@ -60,12 +64,35 @@ nav a {
 
 /* main title section */
 
-.main-title-div {
-  margin: auto;
-  width: 80vh;
+.main-title-section {
+  height: 700px;
+}
+
+.text-img-div {
+  align-items: flex-start;
 }
 
 .main-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 50px;
+}
+
+.text-div {
+  width: 45%;
+}
+
+.jumbo {
+  width: 55%;
+}
+
+.free-try {
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin: 15px 0px;
+}
+
+.freccia {
+  margin: 25px 0px;
+  font-size: 2rem;
 }
