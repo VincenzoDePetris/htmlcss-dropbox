@@ -1,5 +1,9 @@
 /* generic */
 
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -114,7 +118,7 @@ nav a {
 /* main title section */
 
 .main-title-section {
-  height: 565px;
+  height: 520px;
   font-size: 1.2rem;
 }
 
@@ -123,7 +127,7 @@ nav a {
 }
 
 .main-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .text-div {
