@@ -60,6 +60,14 @@ hr {
   margin-left: 20px;
 }
 
+.margin-right {
+  margin-right: 20px;
+}
+
+.margin-all {
+  margin: 20px 20px 20px;
+}
+
 .hr-div {
   border: solid rgb(175, 175, 175) 1px;
   width: 50px;
@@ -362,10 +370,6 @@ nav a {
 }
 
 /* logo-text section */
-
-.margin-all {
-  margin: 20px 20px 20px;
-}
 
 /* free try section */
 
