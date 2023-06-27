@@ -210,4 +210,26 @@ hr {
   color: white;
   padding: 10px 30px;
   border: none;
+  font-size: 0.7rem;
+}
+
+/* partner section */
+
+.partner-section {
+  margin: 100px 0px;
+}
+
+.img-partner {
+  margin-right: 20px;
+  width: calc(60% - 20px);
+}
+
+.text-partner {
+  width: 40%;
+}
+
+.partner-button {
+  padding: 10px 30px;
+  background-color: white;
+  margin-top: 30px;
 }
