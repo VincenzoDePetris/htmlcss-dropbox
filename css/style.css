@@ -233,3 +233,19 @@ hr {
   background-color: white;
   margin-top: 30px;
 }
+
+/* card section */
+
+.card-section {
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33% - 40px);
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.title-card {
+  margin-bottom: 40px;
+}
