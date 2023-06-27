@@ -8,6 +8,14 @@ img {
   max-width: 100%;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+hr {
+  width: 50px;
+}
+
 /* utils */
 
 .flex {
@@ -20,10 +28,6 @@ img {
 
 .container-bg {
   background-color: rgb(180, 208, 231);
-}
-
-.big-section {
-  width: 100%;
 }
 
 .medium-section {
@@ -52,18 +56,33 @@ img {
   margin-left: 20px;
 }
 
+.hr-div {
+  border: solid rgb(175, 175, 175) 1px;
+  width: 50px;
+  margin-left: 20px;
+}
+
 /* header style */
 
 header {
   margin: 0;
 }
 
+#logo {
+  align-items: center;
+}
+
+.stretch {
+  justify-content: stretch;
+}
+
 nav {
-  height: 75px;
+  height: 60px;
 }
 
 header ul {
   list-style: none;
+  white-space: nowrap;
 }
 
 .header-nav {
@@ -90,43 +109,39 @@ nav a {
 /* main title section */
 
 .main-title-section {
-  height: 600;
+  height: 565px;
   font-size: 1.2rem;
 }
 
-.main-title-flex {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.text-img-div {
-  align-items: fle;
+#title {
+  margin-top: 0px;
 }
 
 .main-title {
   font-size: 2.5rem;
-  margin-top: 50px;
 }
 
 .text-div {
-  width: 45%;
+  width: calc(100% / 3 * 1);
 }
 
 .jumbo {
-  width: 65%;
+  width: calc(100% / 3 * 2);
+}
+
+.p-div {
+  margin-top: 0;
 }
 
 .free-try {
   color: white;
   border: none;
   padding: 10px 30px;
-  margin: 15px 0px;
 }
 
 .freccia {
   font-size: 2rem;
-  margin-top: 40px;
-  justify-self: flex-end;
+  margin-top: auto;
 }
 
 /* business container */
@@ -136,7 +151,7 @@ nav a {
 }
 
 .business-main-div {
-  margin: 50px 0px;
+  margin: 80px 0px 50px;
 }
 
 .button-section {
@@ -189,14 +204,15 @@ nav a {
   padding: 10px 20px;
   border: none;
   color: white;
+  text-align: center;
 }
 
-hr {
-  width: 50px;
+.business-button-div {
+  text-align: center;
 }
 
 .orizontal-content {
-  margin: 20px;
+  margin: 10px 0px 15px 15px;
   width: 65%;
 }
 
@@ -205,8 +221,8 @@ hr {
 }
 
 .orizontal-button-div {
-  margin: 20px;
   width: 30%;
+  text-align: end;
 }
 
 .orizontal-button {
@@ -254,6 +270,125 @@ hr {
   margin-bottom: 40px;
 }
 
+.users-div {
+  margin-bottom: 80px;
+}
+
 .scopri-link {
   margin: 80px 0px 50px;
+}
+
+/* sponsor section */
+
+.sponsor {
+  flex-wrap: wrap;
+}
+
+.sponsor-img-div {
+  width: 50%;
+  height: 50%;
+}
+
+.img-sponsor {
+  width: 50%;
+  margin: auto;
+}
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img-div {
+  width: calc(100vw / 6 * 2);
+}
+
+.logo-text {
+  width: calc(100vw / 6 * 2);
+  height: 500px;
+  background-color: rgb(245, 245, 245);
+}
+
+.logo-text-img {
+  width: 50%;
+}
+
+#author {
+  margin-top: 50px;
+}
+
+/* logo bg-color */
+
+.wipro-bg {
+  background-color: rgb(162, 211, 155);
+}
+
+.arizona-uni {
+  background-color: rgb(97, 8, 43);
+}
+
+.florida-uni {
+  background-color: rgb(0, 147, 206);
+}
+
+.topps {
+  background-color: rgb(255, 28, 28);
+}
+
+.world-bicycle {
+  background-color: rgb(213, 0, 31);
+}
+
+.lonely-planet {
+  background-color: rgb(13, 36, 129);
+}
+
+.hearst {
+  background-color: rgb(13, 36, 129);
+}
+
+.clear-channel {
+  background-color: rgb(255, 216, 48);
+}
+
+/* logo-text section */
+
+.margin-all {
+  margin: 20px 20px 20px;
+}
+
+/* free try section */
+
+.try-section {
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.try-button {
+  padding: 10px 30px;
+  background-color: white;
+  border: none;
+}
+
+#red-title {
+  color: rgb(99, 53, 100);
+}
+
+/* q&a section */
+
+.question {
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid darkgray 1px;
+  padding: 20px;
+}
+
+.b-bottom {
+  border-bottom: solid darkgray 1px;
+}
+
+.qea-section {
+  margin: 100px auto;
 }
