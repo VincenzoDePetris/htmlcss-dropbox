@@ -258,11 +258,11 @@ nav a {
 
 .card-section {
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card {
   width: calc(33% - 40px);
-  margin-right: 20px;
   margin-bottom: 50px;
 }
 
@@ -391,4 +391,45 @@ nav a {
 
 .qea-section {
   margin: 100px auto;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+
+footer li {
+  list-style: none;
+  padding-right: 0;
+  margin: 10px 0px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-section {
+  justify-content: space-around;
+}
+
+footer h2 {
+  margin-top: 50px;
+}
+
+.hr-div-white {
+  border: solid white 1px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.icon {
+  margin-left: 10px;
 }
