@@ -337,6 +337,10 @@ nav a {
 
 /* logo bg-color */
 
+.white-logo {
+  filter: invert(100%);
+}
+
 .wipro-bg {
   background-color: rgb(162, 211, 155);
 }
@@ -367,6 +371,12 @@ nav a {
 
 .clear-channel {
   background-color: rgb(255, 216, 48);
+}
+
+#different-logo {
+  width: calc(50% - 20px);
+  height: calc(50% - 20px);
+  border: rgb(209, 233, 205) solid 10px;
 }
 
 /* logo-text section */
